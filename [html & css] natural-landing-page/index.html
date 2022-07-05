@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Natural Page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Natural</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="media/bird.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Looking Deeper.</h2>
+            <h3>Doing Better.</h3>
+            <p>If you truly love natural, you will find beauty everywhere.</p>
+            <a href="#">Start now</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="media/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="media/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="media/twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Story</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('actice')
+        });
+    </script>
+</body>
+</html>

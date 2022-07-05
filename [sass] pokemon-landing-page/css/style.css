@@ -1,0 +1,198 @@
+/* Importing the config file. */
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+/* Setting the box-sizing to border-box, and setting the margin and padding to 0. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting the background color to the light color, the font family to the font stack, and the line
+height to 1.6. */
+body {
+  background-color: #f4f4f4;
+  font-family: Helvetish, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* Setting the width of the image to 50% of the width of the parent element. */
+img {
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.showcase {
+  background-color: #b38c84;
+  color: #fff;
+  height: 440px;
+}
+
+.showcase nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Making the list items display in a row. */
+  /* Adding padding to the list items. */
+  /* Setting the color of the text to the color of the primary color. */
+  /* Changing the color of the text when the mouse hovers over it. */
+}
+
+.showcase nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.showcase nav li {
+  padding: 15px;
+}
+
+.showcase nav a {
+  color: #fff;
+}
+
+.showcase nav a:hover {
+  color: #4db94e;
+}
+
+.showcase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase-content img {
+  width: 50%;
+}
+
+.showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.showcase-content p {
+  margin: 20px 0;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #c6a9a4;
+  color: #333;
+}
+
+.btn-secondary {
+  background-color: #72c772;
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .showcase {
+    height: 550px;
+  }
+  -content {
+    text-align: center;
+  }
+  -content img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
